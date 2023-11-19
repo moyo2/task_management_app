@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Task Manager App</title>
+</head>
+<body>
+    <h1>Task Manager App</h1>
+
+    <!-- Task Creation Form -->
+    <form id="task-form">
+        <label for="task-title">Task Title:</label>
+        <input type="text" id="task-title" required>
+        <button type="button" onclick="addTask()">Add Task</button>
+    </form>
+
+    <!-- Task Listing View -->
+    <ul id="task-list"></ul>
+</body>
+</html>
